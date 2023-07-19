@@ -208,10 +208,7 @@ nav a {
     margin-left: 100px;
 }
 
-/* style for footer */
-/* style for footer */
-/* style for footer */
-/* style for footer */
+/* style for footer */  /* style for footer */  /* style for footer */ /* style for footer */
 
 footer {
     background: #0B0223;
@@ -230,15 +227,17 @@ footer .section-description {
 }
 
 .optoin-class {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     padding-top: 3rem;
 }
 
 .btn {
-    margin: 30px 200px;
-    display: flex;
-    justify-content: space-around;
+    margin: 40px 250px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
 }
 
 .footer-description {
@@ -246,10 +245,11 @@ footer .section-description {
     text-align: center;
     font-size: 1rem;
     font-weight: 500;
+    margin: 0px 70px;
 }
 .upper-part{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     margin: 30px 50px;
 }
 
@@ -354,6 +354,37 @@ footer .section-description {
     .play-games-col-2 {
         margin-top: 10px;
         margin-left: 10px;
+    }
+    footer {
+        background: #0B0223;
+        padding: 20px 20px;
+    }
+
+    .optoin-class {
+        grid-template-columns: repeat(3, 1fr);
+        /* padding:40px; */
+
+    }
+    option{
+        margin: 0 20px;
+        margin-bottom: 30px;
+    }
+    .btn {
+        margin: 0 90px 0 90px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .upper-part{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-last{
+        /* margin:10px 0; */
+        padding: 20px;
+    }
+    footer {
+        padding: 20px;
     }
 
 }
