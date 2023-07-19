@@ -20,7 +20,8 @@ header {
     color: #3C354F;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    margin:auto;
+    /* padding: 30px 100px 30px 100px; */
+    padding: 50px 0px 50px 200px;
 
 }
 
@@ -31,10 +32,26 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: normal;
 }
-nav ul{
+
+nav ul {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
-nav a{
+
+nav a {
     text-decoration: none;
+    margin-right: 30px;
+}
+
+.follow-us {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
 }

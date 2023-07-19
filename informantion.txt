@@ -1,0 +1,19 @@
+Primary color red
+FF42A5
+
+Section description color
+534C64
+text regular 18 or normal
+
+Section heading bold, 48px color
+0B0223
+
+In header sectin 
+
+header {
+    padding:30px 160px 30px 190px;
+
+}
+nav a{
+    margin-right: 30px;
+}
