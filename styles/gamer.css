@@ -22,15 +22,21 @@ body {
 
 .section-title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 .section-description {
     color: #534C64;
-    font-size: 1.1rem;
+    font-size: 1.02rem;
     font-weight: 400;
     text-align: left;
+}
+
+.logo {
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
 
 /* Header related styles */
@@ -164,7 +170,9 @@ nav a {
 }
 
 
-/* styles for play games *//* styles for play games *//* styles for play games */
+/* styles for play games */
+/* styles for play games */
+/* styles for play games */
 
 .play-games-container {
     padding: 50px 100px;
@@ -172,14 +180,17 @@ nav a {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-.play-games-container .section-title{
+
+.play-games-container .section-title {
     text-align: left;
 }
-.play-games-container .section-description{
+
+.play-games-container .section-description {
     text-align: left;
 }
-.play-games-col-1 .pic-1{
-    width:100%;
+
+.play-games-col-1 .pic-1 {
+    width: 100%;
 }
 
 .pic-2 {
@@ -197,11 +208,55 @@ nav a {
     margin-left: 100px;
 }
 
-/* style for footer */ /* style for footer *//* style for footer *//* style for footer */
+/* style for footer */
+/* style for footer */
+/* style for footer */
+/* style for footer */
 
-footer{
-
+footer {
+    background: #0B0223;
+    padding: 120px 200px;
+    text-align: center;
 }
+
+footer .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.amer,
+footer .section-description {
+    color: #FFF;
+}
+
+.optoin-class {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.btn {
+    margin: 30px 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.upper-part{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 50px;
+}
+
+
+
+
+
 /* ResponsiveResponsiveResponsiveResponsiveResponsiveResponsiveResponsiveResponsive */
 /* style for responsive starts */
 /* style for mobile device */
@@ -276,14 +331,16 @@ footer{
     .online-games-description {
         padding: 20px 50px 20px 60px;
     }
+
     .play-games-container {
         padding: 50px 60px;
-        grid-template-columns:repeat(1, 1fr)
-        
+        grid-template-columns: repeat(1, 1fr)
     }
-    .play-games-col-1 .pic-1{
-        width:90%;
+
+    .play-games-col-1 .pic-1 {
+        width: 90%;
     }
+
     .pic-2 {
         border-radius: 5px;
         border: 5px solid #FFF;
@@ -293,7 +350,7 @@ footer{
         bottom: 50px;
         left: 15rem;
     }
-    
+
     .play-games-col-2 {
         margin-top: 10px;
         margin-left: 10px;
@@ -324,7 +381,8 @@ footer{
     .banner-descripton-container {
         padding: 20px 130px;
     }
-    .online-games-container{
+
+    .online-games-container {
         padding: 50px 40px 50px 20px;
         margin: 0px 35px;
     }
@@ -334,15 +392,16 @@ footer{
         gap: 20px;
         padding: 10px;
     }
-    
+
     .play-games-container {
         padding: 50px 60px;
-        grid-template-columns:repeat(1, 1fr)
-        
+        grid-template-columns: repeat(1, 1fr)
     }
-    .play-games-col-1 .pic-1{
-        width:85%;
+
+    .play-games-col-1 .pic-1 {
+        width: 85%;
     }
+
     .pic-2 {
         border-radius: 5px;
         border: 5px solid #FFF;
@@ -352,10 +411,10 @@ footer{
         bottom: 80px;
         left: 28rem;
     }
-    
+
     .play-games-col-2 {
         margin-top: 10px;
         margin-left: 10px;
     }
-    
+
 }
