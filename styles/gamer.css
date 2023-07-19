@@ -189,7 +189,7 @@ nav a {
     position: relative;
     width: 25%;
     bottom: 100px;
-    left: 36rem;
+    left: 32rem;
 }
 
 .play-games-col-2 {
@@ -197,7 +197,11 @@ nav a {
     margin-left: 100px;
 }
 
+/* style for footer */ /* style for footer *//* style for footer *//* style for footer */
 
+footer{
+
+}
 /* ResponsiveResponsiveResponsiveResponsiveResponsiveResponsiveResponsiveResponsive */
 /* style for responsive starts */
 /* style for mobile device */
