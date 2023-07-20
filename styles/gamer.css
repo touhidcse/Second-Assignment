@@ -10,10 +10,10 @@ body {
 }
 
 .btn-primary {
-    margin: 20px 20px 20px 0px;
     border-radius: 48px;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     border: 0;
+    padding: 20px;
     color: #FFF;
     font-size: 1.2rem;
     font-weight: 600;
@@ -86,21 +86,20 @@ nav a {
 
 .banner-container {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
     gap: 10px;
-    min-height: 500px;
 }
 
 .banner-title {
+    text-align: left;
     color: #0B0223;
-    text-align: center;
     font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .banner-goat {
-    text-align: center;
+    text-align: left;
     font-size: 6rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -110,8 +109,10 @@ nav a {
     -webkit-text-fill-color: transparent;
 }
 
-.banner-descripton-container {
-    padding: 20px 60px;
+.banner-container-col-1 {
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    padding: 80px;
 }
 
 .banner-description {
@@ -121,13 +122,9 @@ nav a {
     font-weight: 500;
 
 }
-
-.banner-container-col-1 {
-    background-image: url('../images/Group\ 14.png');
-    padding: 80px 0px;
+.btn-banner{
+    margin-top: 30px;
 }
-
-
 .go-rougue {
     background: #4EC5F7;
 }
@@ -284,42 +281,23 @@ footer .section-description {
 
     .banner-container {
         grid-template-columns: 100%;
-        min-height: 500px;
     }
 
     .banner-title {
-        color: #0B0223;
-        text-align: center;
+        font-size: 1.3rem;
+    }
+    .banner-goat{
         font-size: 2rem;
-        font-weight: 600;
-        text-transform: uppercase;
     }
 
     .banner-container-col-1 {
-        padding: 50px 0px;
+        padding: 40px;
     }
-
+    .btn-primary {
+        padding: 10px;
+    }
     .banner-container-col-2 {
         padding: 50px 0px;
-    }
-
-    .banner-goat {
-        text-align: center;
-        font-size: 4rem;
-        font-weight: 800;
-        text-transform: uppercase;
-        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    .banner-descripton-container {
-        padding: 20px 50px;
-    }
-
-    .btn-primary {
-        margin: 20px 5px 20px 0px;
     }
 
     .card-container {
@@ -409,9 +387,9 @@ footer .section-description {
         margin: 20px 80px;
     }
 
-    .banner-descripton-container {
+    /* .banner-descripton-container {
         padding: 20px 130px;
-    }
+    } */
 
     .online-games-container {
         padding: 50px 40px 50px 20px;
