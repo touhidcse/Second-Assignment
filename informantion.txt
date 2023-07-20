@@ -17,3 +17,9 @@ header {
 nav a{
     margin-right: 30px;
 }
+
+
+my font awosome link 
+<script src="https://kit.fontawesome.com/6f916284f0.js" crossorigin="anonymous"></script>
+
+<i class="fa-duotone fa-circle-play" style="--fa-primary-color: #f8f7f7; --fa-secondary-color: #04f608; --fa-secondary-opacity: 0.8;"></i>

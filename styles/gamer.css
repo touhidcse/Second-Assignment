@@ -227,13 +227,6 @@ nav a {
     font-size: .75rem;
 }
 
-/* .position-icon{
-    margin-left: 10px;
-} */
-
-/* .grid-item-6 {
-    ma
-} */
 
 .icon-and-text {
     border-radius: 50px;
@@ -258,18 +251,7 @@ nav a {
     max-height: 60px;
 }
 
-/* For resuce width of first button */
-/* .grid-item-1{
-    max-width: 200px;
-} */
-
-
-
-
-/* style for footer */
-/* style for footer */
-/* style for footer */
-/* style for footer */
+/* style for footer  style for footer  style for footer style for footer */
 
 footer {
     background: #0B0223;
@@ -402,6 +384,17 @@ footer .section-description {
         margin-left: 10px;
     }
 
+    .icon-button-container {
+        margin: 30px 10px;
+        gap:3px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .icon-text-flex {
+        max-width: 100px;
+        max-height: 50px;
+    }
+
     footer {
         background: #0B0223;
         padding: 40px;
@@ -493,6 +486,11 @@ footer .section-description {
     .play-games-col-2 {
         margin-top: 10px;
         margin-left: 10px;
+    }
+
+    .icon-button-container {
+        margin: 30px 50px;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     footer {
