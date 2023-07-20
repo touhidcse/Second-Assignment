@@ -390,7 +390,7 @@ footer .section-description {
         width: 25%;
     }
     .icon-button-container {
-        margin: 30px 60px;
+        margin: 0px 60px;
         gap:2px;
         grid-template-columns: repeat(3, 1fr);
     }
@@ -500,7 +500,7 @@ footer .section-description {
     }
 
     .icon-button-container {
-        margin: 30px 50px;
+        margin: 0px 50px;
         grid-template-columns: repeat(3, 1fr);
     }
 
