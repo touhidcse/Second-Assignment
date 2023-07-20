@@ -192,7 +192,6 @@ nav a {
   
   .play-button {
     font-size: 40px;
-    margin-bottom: 10px;
   }
   
   .watch-now {
@@ -211,7 +210,7 @@ nav a {
     padding: 50px 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 10px;
 }
 
 .play-games-container .section-title {
