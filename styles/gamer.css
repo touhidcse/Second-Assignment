@@ -219,23 +219,49 @@ nav a {
     grid-template-columns: repeat(5, 1fr);
 }
 
-.grid-item-6 {
-    margin-left: 100px;
+.icon-and-text {
+    margin: 20px 10px;
 }
 
+.icon-button .section-description {
+    font-size: .75rem;
+}
+
+/* .position-icon{
+    margin-left: 10px;
+} */
+
+/* .grid-item-6 {
+    ma
+} */
+
 .icon-and-text {
-    width: 250px;
-    height: 80px;
     border-radius: 50px;
     background: #FFF;
 }
 
-.icon-text-flex {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.icon-and-text:hover{
+
+    border-radius: 50px;
+    border: 1px solid #FF42A5;
+    color: #F948B2;
+}
+.icon-and-text:hover .section-description{
+    color: #F948B2;
 }
 
+.icon-text-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 200px;
+    max-height: 60px;
+}
+
+/* For resuce width of first button */
+/* .grid-item-1{
+    max-width: 200px;
+} */
 
 
 
